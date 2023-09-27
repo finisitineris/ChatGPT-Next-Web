@@ -10,7 +10,7 @@
 [![MacOS][MacOS-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[网页版](https://chat-gpt-next-web-gosuto.vercel.app/) / [客户端](https://github.com/Hk-Gosuto/ChatGPT-Next-Web-LangChain/releases) / [反馈](https://github.com/Hk-Gosuto/ChatGPT-Next-Web-LangChain/issues)
+[网页版](https://chat-gpt-next-web-gosuto.vercel.app/) / ~~[客户端](https://github.com/Hk-Gosuto/ChatGPT-Next-Web-LangChain/releases)~~ / [反馈](https://github.com/Hk-Gosuto/ChatGPT-Next-Web-LangChain/issues)
 
 [web-url]: https://chat-gpt-next-web-gosuto.vercel.app/
 [download-url]: https://github.com/Hk-Gosuto/ChatGPT-Next-Web-LangChain/releases
@@ -47,7 +47,7 @@
   
   - 网络请求
     - [WebBrowser](https://js.langchain.com/docs/api/tools_webbrowser/classes/WebBrowser)
-   
+  
   - 其它
     - [Wiki](https://js.langchain.com/docs/api/tools/classes/WikipediaQueryRun)
     - DALL-E
@@ -106,6 +106,8 @@
 
 [English > FAQ](./docs/faq-en.md)
 
+[Azure OpenAI](./docs/azure-openai-cn.md)
+
 ## 配置页面访问密码
 
 > 配置密码后，用户需要在设置页手动填写访问码才可以正常聊天，否则会通过消息提示未授权状态。
@@ -135,6 +137,15 @@ OpanAI 密钥，你在 openai 账户页面申请的 api key。
 ### `BING_SEARCH_API_KEY` (可选)
 
 [Web Search API | Microsoft Bing](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api)
+
+### `CHOOSE_SEARCH_ENGINE` (可选)
+
+此项为直连搜索引擎，免去api试用量小的烦恼，但可能因为网络问题导致无法使用
+
+可选项如下：
+
+- google
+- baidu
 
 ### `CODE` （可选）
 
